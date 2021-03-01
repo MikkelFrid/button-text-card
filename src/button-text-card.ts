@@ -341,7 +341,7 @@ export class BoilerplateCard extends LitElement {
         font-family: SF Display;
         line-height: 2.05vw;
         letter-spacing: 0.06vw;
-        font-size: 1.5vw;
+        font-size: 2vw;
         font-weight: 300;
         color: rgb(250, 250, 250);
         margin: 0;
