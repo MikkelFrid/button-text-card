@@ -316,6 +316,7 @@ export class BoilerplateCard extends LitElement {
         align-items: center;
         justify-content: center;
         text-align: center;
+        display:none;
       }
 
       .text-container {
@@ -337,10 +338,18 @@ export class BoilerplateCard extends LitElement {
         flex: 1;
       }
       .text-container h1 {
-        font-size: 21px;
-        font-weight: 500;
+        font-family: SF Display;
+        line-height: 2.05vw;
+        letter-spacing: 0.06vw;
+        font-size: 1.5vw;
+        font-weight: 300;
+        color: rgb(106, 115, 119);
         margin: 0;
+        transition: 0.3s;        
       }
+      .text-container h1:hover {
+        color: rgb(250, 250, 250);
+      }      
       .text-container h1 + p {
         margin-top: 10px;
       }
