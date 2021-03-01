@@ -343,9 +343,9 @@ export class BoilerplateCard extends LitElement {
         letter-spacing: 0.06vw;
         font-size: 1.5vw;
         font-weight: 300;
-        color: rgb(106, 115, 119);
+        color: rgb(250, 250, 250);
         margin: 0;
-        transition: 0.3s;        
+        transition: 0.1s;        
       }
       .text-container h1:hover {
         color: rgb(250, 250, 250);
